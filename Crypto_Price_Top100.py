@@ -1,6 +1,6 @@
 import requests
 
-# Récupère le top 10 des cryptos selon leur market cap
+# Récupère le top 100 des cryptos selon leur market cap
 def get_top_cryptos(limit=100):
     url = "https://api.coingecko.com/api/v3/coins/markets"
     params = {
